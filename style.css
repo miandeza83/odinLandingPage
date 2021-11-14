@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px;
+  background-color: #1f2937;
+}
+.webLogo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-right: 50px;
+}
+.introSection {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f2937;
+  padding: 100px;
+}
+.heroDiv {
+  width: 500px;
+}
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px;
+  width: 178px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+.sliderSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.imagesSideBySide {
+  padding: 30px;
+}
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+}
+.slider {
+  max-width: 300px;
+}
+.sliderImg {
+  border-radius: 20%;
+  width: 300px;
+  height: 300px;
+  border: 4px solid blue;
+}
+.quoteSection {
+  background-color: #e5e7eb;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+blockquote {
+  width: 700px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+strong {
+  position: relative;
+  left: 200px;
+}
+.ctaSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  padding: 100px;
+}
+.innerCTADiv {
+  background-color: #3882f6;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  padding: 50px;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+}
+.ctaText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ctaBtn {
+  border: 2px solid white;
+  height: 40px;
+}
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 39px;
+}
